@@ -1,7 +1,6 @@
 from django.http import HttpResponse, JsonResponse
 
 
-
 def home(request):
     # Someone visited the homepage - say hello
     return HttpResponse("Welcome to my Library API!")
